@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <v-app-bar :elevation="2">
       <v-app-bar-nav-icon>  
          <RouterLink to="/">
-          <v-icon dark icon="mdi-home" />
+          <v-icon icon="mdi-home" />
         </RouterLink> 
       </v-app-bar-nav-icon>
       <v-app-bar-title> Aplication</v-app-bar-title>
@@ -17,6 +17,10 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">
           <v-btn> О компании </v-btn>
         </RouterLink>
+        <RouterLink to="/login">
+          <v-btn> Войти </v-btn>
+        </RouterLink>
+
       </template>
     </v-app-bar>
     <RouterView />
