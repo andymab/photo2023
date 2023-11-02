@@ -6,6 +6,12 @@
   padding: 2rem;
 
   font-weight: normal;
+  box-sizing: border-box;
+}
+
+main{
+  padding-top: 80px;
+  height: 60%;
 }
 
 a,

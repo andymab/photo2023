@@ -5,30 +5,22 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <v-app>
-  <v-app-bar :elevation="2">
-    <v-app-bar-title> Aplication</v-app-bar-title>
-    <template v-slot:append>
-      <v-icon dark icon="mdi-home" />
-      <v-btn dark icon="mdi-abacus"></v-btn>
-      <v-btn icon="mdi-magnify"></v-btn>
-      <v-btn icon="mdi-dots-vertical"></v-btn> 
-    </template>
+    <v-app-bar :elevation="2">
+      <v-app-bar-nav-icon>  
+         <RouterLink to="/">
+          <v-icon dark icon="mdi-home" />
+        </RouterLink> 
+      </v-app-bar-nav-icon>
+      <v-app-bar-title> Aplication</v-app-bar-title>
+      <template v-slot:append>
 
-  </v-app-bar>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+        <RouterLink to="/about">
+          <v-btn> О компании </v-btn>
+        </RouterLink>
+      </template>
+    </v-app-bar>
+    <RouterView />
 </v-app>
-  <RouterView />
 </template>
 
 <style scoped>
