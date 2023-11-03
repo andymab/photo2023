@@ -1,4 +1,5 @@
 # photo2023
+nvm use 20
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
     "vite": "^4.4.11",
