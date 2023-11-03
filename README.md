@@ -1,6 +1,10 @@
-# ids
-
-This template should help get you started developing with Vue 3 in Vite.
+# photo2023
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+    "vite": "^4.4.11",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.23"
+Создан на основе vite + vue + vuetify
 
 ## Recommended IDE Setup
 
