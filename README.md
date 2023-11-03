@@ -5,6 +5,7 @@ nvm use 20
     "vite": "^4.4.11",
     "vite-plugin-vuetify": "^1.0.2",
     "vuetify": "^3.3.23"
+    
 Создан на основе vite + vue + vuetify
 
 ## Recommended IDE Setup
